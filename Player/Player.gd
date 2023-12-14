@@ -33,7 +33,7 @@ func _physics_process(delta):
 			$Sprite.flip_h = true
 		else:
 			$Sprite.flip_h = false;
-	else:
+	else: 
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		
 
